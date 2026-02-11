@@ -1,5 +1,41 @@
 # Changelog
 
+## [2026.2.10](https://github.com/jdx/mise/compare/v2026.2.9..v2026.2.10) - 2026-02-11
+
+### 🐛 Bug Fixes
+
+- **(backend)** improve conda patchelf and dependency resolution for complex packages by @jdx in [#8087](https://github.com/jdx/mise/pull/8087)
+- **(ci)** fix validate-new-tools grep pattern for test field by @jdx in [#8100](https://github.com/jdx/mise/pull/8100)
+- **(gitlab)** resolve tool options from config for aliased tools by @jdx in [#8084](https://github.com/jdx/mise/pull/8084)
+- **(install)** use version_expr for Flutter to fix version resolution by @jdx in [#8081](https://github.com/jdx/mise/pull/8081)
+- **(release)** write release notes to file instead of capturing stdout by @jdx in [#8086](https://github.com/jdx/mise/pull/8086)
+- **(upgrade)** tools are not uninstalled properly due to outdated symlink by @roele in [#8099](https://github.com/jdx/mise/pull/8099)
+- **(upgrade)** ensure uninstallation failure does not leave invalid symlinks by @roele in [#8101](https://github.com/jdx/mise/pull/8101)
+- SLSA for in-toto statement with no signatures by @gerhard in [#8094](https://github.com/jdx/mise/pull/8094)
+- Vfox Plugin Auto-Installation for Environment Directives by @pose in [#8035](https://github.com/jdx/mise/pull/8035)
+
+### 📦 Registry
+
+- add conda backend for mysql by @jdx in [#8080](https://github.com/jdx/mise/pull/8080)
+- add conda backends for 10 asdf-only tools by @jdx in [#8083](https://github.com/jdx/mise/pull/8083)
+
+### New Contributors
+
+- @pose made their first contribution in [#8035](https://github.com/jdx/mise/pull/8035)
+- @gerhard made their first contribution in [#8094](https://github.com/jdx/mise/pull/8094)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (2)
+
+- [`entireio/cli`](https://github.com/entireio/cli)
+- [`rmitchellscott/reManager`](https://github.com/rmitchellscott/reManager)
+
+#### Updated Packages (2)
+
+- [`atuinsh/atuin`](https://github.com/atuinsh/atuin)
+- [`tuist/tuist`](https://github.com/tuist/tuist)
+
 ## [2026.2.9](https://github.com/jdx/mise/compare/v2026.2.8..v2026.2.9) - 2026-02-10
 
 ### 🚀 Features
